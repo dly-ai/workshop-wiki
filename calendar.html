@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calendar — Workshop Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/patternfly-base.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/components/Button/button.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="calendar">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <nav id="site-nav"></nav>
+    <div class="layout">
+      <div class="main-col">
+      <main id="main" class="content">
+        <p class="kicker">Schedule</p>
+        <div class="cal-toolbar">
+          <h1 id="cal-month-label">Calendar</h1>
+          <button type="button" class="pf-v6-c-button pf-m-secondary" id="cal-prev">Previous</button>
+          <button type="button" class="pf-v6-c-button pf-m-primary" id="cal-today">Today</button>
+          <button type="button" class="pf-v6-c-button pf-m-secondary" id="cal-next">Next</button>
+        </div>
+        <div class="filters" id="cal-filters" role="group" aria-label="Filter by track"></div>
+
+        <div class="calendar-layout">
+          <div>
+            <div class="month-grid" id="cal-grid" role="grid" aria-label="Workshop month"></div>
+          </div>
+          <aside class="cal-side panel">
+            <h2>This month</h2>
+            <div id="cal-list">
+              <p class="muted">Loading…</p>
+            </div>
+          </aside>
+        </div>
+
+      </main>
+      <footer id="site-footer"></footer>
+      </div>
+    </div>
+    <script src="js/gate.js"></script>
+    <script src="js/pf-button.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/site-data.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/calendar.js"></script>
+  </body>
+</html>

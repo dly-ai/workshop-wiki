@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenShift App Platform — Workshop Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/patternfly-base.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/components/Button/button.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="security">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <nav id="site-nav"></nav>
+    <div class="layout">
+      <div class="main-col">
+      <main class="content" id="main">
+        <div id="workshop-root" data-workshop="security">
+          <p class="kicker">Workshop</p>
+          <div class="workshop-hero">
+            <div>
+              <h1 id="ws-name">OpenShift App Platform (Security)</h1>
+            </div>
+          </div>
+          <div class="meta-row">
+            <span>Duration: <strong id="ws-duration">3 hours</strong></span>
+            <span>Time: <strong>11:00 AM – 2:00 PM CT</strong></span>
+          </div>
+
+          <section id="overview">
+            <h2>Overview</h2>
+            <div class="panel" id="ws-overview"></div>
+          </section>
+
+          <section id="agenda">
+            <h2>Agenda</h2>
+            <table class="agenda">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Topic</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody id="ws-agenda"></tbody>
+            </table>
+          </section>
+
+          <section id="demo">
+            <h2>Coming Soon</h2>
+            <div class="demo-stage" id="demo-security">
+              <div class="demo-stage__bar">
+                <strong>App Platform · security</strong>
+                <span>Overall: <span id="sec-overall" class="status-fail">Violations found</span></span>
+              </div>
+              <div class="demo-body">
+                <div class="demo-controls">
+                  <label class="toggle-row">
+                    <input type="checkbox" id="sec-admission" />
+                    Admission policy
+                  </label>
+                  <label class="toggle-row">
+                    <input type="checkbox" id="sec-acs" />
+                    ACS vulnerability policy
+                  </label>
+                  <label class="toggle-row">
+                    <input type="checkbox" id="sec-compliance" />
+                    Compliance (CIS)
+                  </label>
+                </div>
+                <div class="demo-canvas">
+                  <div class="workload-card">
+                    <h3>payments-api</h3>
+                    <p class="muted">namespace: prod · image: payments-api:1.2</p>
+                    <div id="sec-results"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="resources">
+            <h2>Session Details</h2>
+            <div class="panel">
+              <ul class="resource-list" id="ws-resources"></ul>
+            </div>
+          </section>
+
+          <section id="sessions">
+            <h2>Sessions</h2>
+            <div id="ws-sessions"></div>
+          </section>
+        </div>
+      </main>
+      <footer id="site-footer"></footer>
+      </div>
+    </div>
+    <script src="../js/gate.js"></script>
+    <script src="../js/pf-button.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/site-data.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/workshop.js"></script>
+    <script src="../js/demos/security.js"></script>
+  </body>
+</html>

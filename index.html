@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Workshop Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/patternfly-base.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/components/Button/button.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <nav id="site-nav"></nav>
+    <div class="layout">
+      <div class="page-hero">
+        <div class="page-hero__bg">
+          <video src="assets/hero-hat.mp4" autoplay loop muted playsinline></video>
+        </div>
+        <div class="hero-text">
+          <h1>Workshop Wiki</h1>
+        </div>
+      </div>
+      <div class="main-col">
+        <main id="main" class="content">
+
+          <section id="process-demo">
+            <h2>How does registration work?</h2>
+            <p class="section-desc">Registration is handled through Red Hat Marketing. Each workshop session has its own dedicated landing page, regardless of product. The demo below walks through exactly what customers will see when they click the registration link for their session.</p>
+            <div class="arcade-wrap">
+              <div class="arcade-embed">
+                <iframe
+                  src="https://demo.arcade.software/2T4qixhQrV8JMEf813Ew?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"
+                  title="Register for a Red Hat Online Workshop Using Your Account"
+                  frameborder="0"
+                  loading="lazy"
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
+                  allow="clipboard-write; autoplay"
+                ></iframe>
+              </div>
+            </div>
+          </section>
+
+          <section id="tracks">
+            <h2>Workshops</h2>
+            <div class="card-grid">
+              <a class="card card--link card--aap" href="workshops/aap.html">
+                <h2>Ansible Automation Platform</h2>
+                <p>Linux, Windows, Satellite, Terraform, and Event-Driven Ansible workshops.</p>
+                <span class="cta">View workshop →</span>
+              </a>
+              <a class="card card--link card--virt" href="workshops/openshift-virt.html">
+                <h2>OpenShift Virtualization</h2>
+                <p>Bring existing VMs onto OpenShift and run them beside containers.</p>
+                <span class="cta">View workshop →</span>
+              </a>
+              <a class="card card--link card--security" href="workshops/openshift-app.html">
+                <h2>OpenShift App Platform</h2>
+                <p>Security-focused application platform: policy, compliance, and ACS.</p>
+                <span class="card-flag">Coming Soon</span>
+              </a>
+            </div>
+          </section>
+
+          <section id="sessions">
+            <h2>Next sessions</h2>
+            <div class="filters" id="session-filters"></div>
+            <div class="panel panel--glass-bg">
+              <ul id="upcoming-sessions" class="session-list">
+                <li class="muted">Loading sessions…</li>
+              </ul>
+            </div>
+          </section>
+        </main>
+        <footer id="site-footer"></footer>
+      </div>
+    </div>
+    <script src="js/gate.js"></script>
+    <script src="js/pf-button.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/site-data.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ansible Automation Platform — Workshop Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/patternfly-base.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@patternfly/patternfly@6.6.1/components/Button/button.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="aap">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <nav id="site-nav"></nav>
+    <div class="layout">
+      <div class="main-col">
+      <main class="content" id="main">
+        <div id="workshop-root" data-workshop="aap">
+          <p class="kicker">Workshop</p>
+          <div class="workshop-hero">
+            <div>
+              <h1 id="ws-name">Ansible Automation Platform</h1>
+            </div>
+          </div>
+          <div class="meta-row">
+            <span>Duration: <strong id="ws-duration">3 hours</strong></span>
+            <span>Time: <strong>11:00 AM – 2:00 PM CT</strong></span>
+          </div>
+
+          <section id="overview">
+            <h2>Overview</h2>
+            <div class="panel" id="ws-overview"></div>
+          </section>
+
+          <section id="agenda">
+            <h2>Agenda</h2>
+            <table class="agenda">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Topic</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody id="ws-agenda"></tbody>
+            </table>
+          </section>
+
+          <section id="demo">
+            <h2>Session Overview</h2>
+            <div class="demo-stage" id="demo-aap">
+              <div class="demo-stage__bar">
+                <strong>AAP Controller</strong>
+                <span>Job status: <span id="aap-status">pending</span></span>
+              </div>
+              <div class="demo-body">
+                <div class="demo-controls">
+                  <label for="aap-template">Job template</label>
+                  <select id="aap-template">
+                    <option value="windows">Windows Automation</option>
+                    <option value="network">Network Automation</option>
+                    <option value="linux">Linux Automation</option>
+                  </select>
+                  <button type="button" class="pf-v6-c-button pf-m-primary" id="aap-launch">Launch</button>
+                </div>
+                <div class="demo-canvas">
+                  <pre class="demo-log" id="aap-log">Select a template and launch a job.</pre>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="sessions">
+            <h2>Sessions</h2>
+            <div id="ws-sessions"></div>
+          </section>
+
+          <section id="resources">
+            <h2>Session Details</h2>
+            <div class="panel">
+              <ul class="resource-list" id="ws-resources"></ul>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer id="site-footer"></footer>
+      </div>
+    </div>
+    <script src="../js/gate.js"></script>
+    <script src="../js/pf-button.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/site-data.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/workshop.js"></script>
+    <script src="../js/demos/aap.js"></script>
+  </body>
+</html>
