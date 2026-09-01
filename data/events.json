@@ -10,7 +10,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "aap-terraform-2026-08-19",
@@ -23,7 +24,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "virt-2026-08-26",
@@ -36,7 +38,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "aap-satellite-2026-09-16",
@@ -49,7 +52,8 @@
     "url": "https://forms.gle/gqi9qrsTN7bDtHko6",
     "reportUrl": "https://docs.google.com/spreadsheets/d/153K-LilmnvIJgbggY53DKxooUbVseMPFs_FxeKfkgvY/edit?usp=sharing",
     "recurrence": "",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "virt-2026-09-23",
@@ -62,7 +66,8 @@
     "url": "https://www.redhat.com/en/events/webinar/modernize-workloads-at-your-own-pace",
     "reportUrl": "https://wcc.on24.com/wcc/report?token=u8w2jrte8UD0WBcLZOjxsVW0BNKJnoqXDS-Gsnup6-iORM5gp9vsCF8VzVK7Y-6Q-jFd5QqyzwQ10qocynpG7Wz8h01n1BInBe_4gOYdlaVSCNkBfo-IK-5YjV6EioguAiXMx4fUvAmNb_zDjOZ9K5XQc5qLylnxsHo9CvSt-f38gYBzH6Cil7NPdzXpsjfKZfHaoeKDs9RbI6x4OLTX-A==",
     "recurrence": "4th Wednesday",
-    "notes": "Standard schedule"
+    "notes": "Standard schedule",
+    "salesforceId": "701Pe00001U5QMgIAN"
   },
   {
     "id": "aap-windows-2026-10-21",
@@ -75,7 +80,8 @@
     "url": "https://forms.gle/gqi9qrsTN7bDtHko6",
     "reportUrl": "https://docs.google.com/spreadsheets/d/153K-LilmnvIJgbggY53DKxooUbVseMPFs_FxeKfkgvY/edit?usp=sharing",
     "recurrence": "3rd Wednesday",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "virt-2026-10-28",
@@ -88,7 +94,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "4th Wednesday",
-    "notes": "Standard schedule"
+    "notes": "Standard schedule",
+    "salesforceId": ""
   },
   {
     "id": "aap-network-2026-11-18",
@@ -101,7 +108,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "3rd Wednesday",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "virt-2026-11-18",
@@ -114,7 +122,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "3rd Wednesday",
-    "notes": "Exception (Holiday adjustment)"
+    "notes": "Exception (Holiday adjustment)",
+    "salesforceId": ""
   },
   {
     "id": "aap-linux-2026-12-16",
@@ -127,7 +136,8 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "3rd Wednesday",
-    "notes": ""
+    "notes": "",
+    "salesforceId": ""
   },
   {
     "id": "virt-2026-12-16",
@@ -140,6 +150,7 @@
     "url": "",
     "reportUrl": "",
     "recurrence": "3rd Wednesday",
-    "notes": "Exception (Holiday adjustment)"
+    "notes": "Exception (Holiday adjustment)",
+    "salesforceId": ""
   }
 ]

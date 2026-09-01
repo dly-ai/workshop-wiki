@@ -130,6 +130,7 @@
       trackLabel(event.track) +
       "</span>" +
       (note ? '<span class="session-note">' + note + "</span>" : "") +
+      ((event.salesforceId || "").trim() ? '<span class="sfid-label">SFID: ' + event.salesforceId + "</span>" : "") +
       action +
       "</div></li>"
     );
